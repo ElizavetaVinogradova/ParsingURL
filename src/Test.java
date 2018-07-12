@@ -4,6 +4,9 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -11,7 +14,18 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Test {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+        String userName = "root";
+        String password = "root";
+        String connectionUrl = "jdbc:mysql://localhost:3306/test";
+        Class.forName("com.mysql.jdbc.Driver");
+        try(Connection connection = DriverManager.getConnection(connectionUrl, userName, password)){
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+        //---------------------------------------------------------------------------------------------
         Document doc = Jsoup.connect("https://www.apple.com/ru/itunes/charts/movies/").get(); //получили общую страницу, распарсили в Document
         Elements h3Elements = doc.getElementsByTag("h3"); //получили по тегу список ссылок на все фильмы с первоначальной страницы
 
