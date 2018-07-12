@@ -4,7 +4,6 @@
     <list default="true" id="c9446afe-0ff5-436b-abe3-656b0fbd5955" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources/1526c9bd-c205-433e-8197-d5d98266b86c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources/1526c9bd-c205-433e-8197-d5d98266b86c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParsingURL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParsingURL/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/src/Test.java" afterDir="false" />
     </list>
@@ -43,6 +42,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="films: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -56,8 +62,8 @@
       <file leaf-file-name="Film.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Film.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="-408">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1343#1344#0" expanded="true" />
@@ -74,29 +80,11 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="1713">
+              <caret line="133" column="73" selection-start-line="133" selection-start-column="73" selection-end-line="133" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/31c0cfdf-618c-460e-a6fe-bf179c7ecace/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="films" pinned="false" current-in-tab="false">
-        <entry file="das://31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/films">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -129,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/../ParsingURL/src/Film.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/31c0cfdf-618c-460e-a6fe-bf179c7ecace/console.sql" />
+        <option value="$PROJECT_DIR$/../ParsingURL/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../ParsingURL/src/Test.java" />
       </list>
     </option>
@@ -173,23 +162,6 @@
               <item name="ParsingURL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
-            <path>
-              <item name="ParsingURL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="ParsingURL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="1526c9bd-c205-433e-8197-d5d98266b86c" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
-            <path>
-              <item name="ParsingURL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="31c0cfdf-618c-460e-a6fe-bf179c7ecace" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -200,11 +172,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/CRUD/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -285,7 +257,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531333404368</updated>
       <workItem from="1531333415256" duration="6679000" />
-      <workItem from="1531377088076" duration="31655000" />
+      <workItem from="1531377088076" duration="40823000" />
     </task>
     <task id="LOCAL-00001" summary="Film.java, Test.java, DB connect&#10;setFilmURL, setTitle, setDescription, setImageURL, setAgeRating">
       <created>1531406978170</created>
@@ -294,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531406978170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="connect to data base">
+      <created>1531411813790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531411813790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38334000" />
+    <option name="totallyTimeSpent" value="47502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -314,13 +293,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2916053" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33431518" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.3298969" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11275168" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.12818792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1442953" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.18590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -332,6 +310,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3298969" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -343,7 +322,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Film.java, Test.java, DB connect&#10;setFilmURL, setTitle, setDescription, setImageURL, setAgeRating" />
-    <option name="LAST_COMMIT_MESSAGE" value="Film.java, Test.java, DB connect&#10;setFilmURL, setTitle, setDescription, setImageURL, setAgeRating" />
+    <MESSAGE value="connect to data base" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect to data base" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Film.java">
@@ -414,22 +394,6 @@
     <entry file="file://$PROJECT_DIR$/../ParsingURL/.idea/dataSources/1526c9bd-c205-433e-8197-d5d98266b86c.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-            <element signature="e#2457#2458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/book">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -451,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/films">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/31c0cfdf-618c-460e-a6fe-bf179c7ecace/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -465,10 +422,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/films">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ParsingURL/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="1713">
+          <caret line="133" column="73" selection-start-line="133" selection-start-column="73" selection-end-line="133" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

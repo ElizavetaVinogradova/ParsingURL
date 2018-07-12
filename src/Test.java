@@ -17,9 +17,10 @@ public class Test {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         String userName = "root";
         String password = "root";
-        String connectionUrl = "jdbc:mysql://localhost:3306/test";
+        String connectionUrl = "jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useSSL=false";
         Class.forName("com.mysql.jdbc.Driver");
         try(Connection connection = DriverManager.getConnection(connectionUrl, userName, password)){
+            System.out.println("CONNECTED");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -48,7 +49,7 @@ public class Test {
 
 //---------------------------------------------------------------------
 
-                //todo КОРОТКОЕ ОПИСАНИЕ!!!
+                //todo КОРОТКОЕ ОПИСАНИЕ
                 /*Optional<Element> fullDescElement = innerDoc.getElementsByAttributeValue("itemprop", "description")
                         .stream().filter(element -> {
                             return !element.getElementsByAttributeValue("href", "#").isEmpty();
@@ -59,7 +60,7 @@ public class Test {
 
 //---------------------------------------------------------------------
 
-                //todo ПОЛНОЕ ОПИСАНИЕ!!!
+                //todo ПОЛНОЕ ОПИСАНИЕ
                 Optional<Element> fullDescElement = innerDoc.getElementsByAttributeValue("itemprop", "description")
                         .stream().filter(element -> {
                             return !element.getElementsByAttributeValue("will-truncate-max-height", "270").isEmpty();
@@ -68,7 +69,7 @@ public class Test {
                 film.setFullDescription(fullDescElement.get().getElementsByTag("p").text());
                 System.out.println("FullDescription: " + film.getFullDescription());
 
-                //todo КАРТИНКИ!!!
+                //todo КАРТИНКИ
                 Optional<Element> imgElement = innerDoc.getElementsByAttributeValue("class", "artwork")
                         .stream().filter(element -> {
                             return !element.getElementsByAttributeValue("width", "227").isEmpty();
@@ -77,7 +78,7 @@ public class Test {
                 film.setImageUrl(imgElement.get().getElementsByTag("meta").first().attr("content"));
                 System.out.println("ImageUrl - " + film.getImageUrl());
 
-                //todo ВОЗРАСТ!!!
+                //todo ВОЗРАСТ
                 Optional<Element> ratingElement = innerDoc.getElementsByAttributeValue("class", "left")
                         .stream().filter(element -> {
                             return !element.getElementsByAttributeValue("class", "content-rating").isEmpty();
@@ -88,23 +89,49 @@ public class Test {
 
 //-----------------------------------------------------------------------
 
-                /*//todo АКТЁРЫ!!!
-                Optional<Element> actorsElement = innerDoc.getElementsByTag("li")
-                        .stream().filter(element -> {
-                            return !element.getElementsByAttributeValue("itemtype", "http://schema.org/Person").isEmpty();
-                        })
-                        .findFirst();
-                List<String> actorsList;
-                film.setActors(actorsElement.get().getElementsByAttributeValue("itemprop", "name").text());
-                System.out.println("Actors - " + film.getActors());*/
+                //todo АКТЁРЫ
+                Elements liElements = innerDoc.getElementsByAttributeValue("metrics-loc", "Titledbox_Актеры");
+                List<String> actors = liElements.stream().map(liElement -> {
+                    return liElement.getElementsByAttributeValue("itemprop", "name").text();
+                }).collect(Collectors.toList());
+                System.out.print("Актёры: ");
+                film.setActors(actors);
+                film.getActors().forEach(System.out::println);
 
 //-----------------------------------------------------------------------
 
+                //todo РЕЖИССЕРЫ
+                Elements actorsElements = innerDoc.getElementsByAttributeValue("metrics-loc", "Titledbox_Режиссер");
+                List<String> directors = actorsElements.stream().map(liElement -> {
+                    return liElement.getElementsByAttributeValue("itemprop", "name").text();
+                }).collect(Collectors.toList());
+                System.out.print("Режиссеры: ");
+                film.setDirectors(directors);
+                film.getDirectors().forEach(System.out::println);
 
+//-----------------------------------------------------------------------
 
-               /*film.setDirectors();
-                film.setProducers();
-                film.setScreenwriter();*/
+                //todo СЦЕНАРИСТЫ
+                Elements screenwritersElements = innerDoc.getElementsByAttributeValue("metrics-loc", "Titledbox_Сценарий");
+                List<String> screenwriters = screenwritersElements.stream().map(liElement -> {
+                    return liElement.getElementsByAttributeValue("itemprop", "name").text();
+                }).collect(Collectors.toList());
+                System.out.print("Сценаристы: ");
+                film.setScreenwriter(screenwriters);
+                film.getScreenwriter().forEach(System.out::println);
+
+//-----------------------------------------------------------------------
+
+                //todo ПРОДЮСЕРЫ
+                Elements producersElements = innerDoc.getElementsByAttributeValue("metrics-loc", "Titledbox_Продюсеры");
+                List<String> producers = producersElements.stream().map(liElement -> {
+                    return liElement.getElementsByAttributeValue("itemprop", "name").text();
+                }).collect(Collectors.toList());
+                System.out.print("Продюсеры: ");
+                film.setProducers(producers);
+                film.getProducers().forEach(System.out::println);
+
+//-----------------------------------------------------------------------
             } catch (IOException e) {
                 e.printStackTrace();
                 System.out.println("Here`s JOHNY!");

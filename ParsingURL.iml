@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../ParsingURL">
       <sourceFolder url="file://$MODULE_DIR$/../ParsingURL/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../ParsingURL/src/resourses" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
