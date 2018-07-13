@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../ParsingURL/src/resourses/test.sql" line="15" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c9446afe-0ff5-436b-abe3-656b0fbd5955" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ParsingURL/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParsingURL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ParsingURL/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParsingURL/src/resourses/test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingURL/src/resourses/test.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Film.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-408">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1343#1344#0" expanded="true" />
@@ -80,11 +82,29 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1713">
-              <caret line="133" column="73" selection-start-line="133" selection-start-column="73" selection-end-line="133" selection-end-column="73" />
+            <state relative-caret-position="319">
+              <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ParsingURL/src/resourses/test.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="films" pinned="false" current-in-tab="false">
+        <entry file="das://31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/films">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -119,6 +139,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/31c0cfdf-618c-460e-a6fe-bf179c7ecace/console.sql" />
         <option value="$PROJECT_DIR$/../ParsingURL/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../ParsingURL/src/Test.java" />
+        <option value="31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/films.sql" />
+        <option value="$PROJECT_DIR$/../ParsingURL/src/resourses/test.sql" />
       </list>
     </option>
   </component>
@@ -140,6 +162,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -160,7 +183,9 @@
             </path>
             <path>
               <item name="ParsingURL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="ParsingURL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resourses" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,7 +201,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/CRUD/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -257,7 +282,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531333404368</updated>
       <workItem from="1531333415256" duration="6679000" />
-      <workItem from="1531377088076" duration="40823000" />
+      <workItem from="1531377088076" duration="46685000" />
     </task>
     <task id="LOCAL-00001" summary="Film.java, Test.java, DB connect&#10;setFilmURL, setTitle, setDescription, setImageURL, setAgeRating">
       <created>1531406978170</created>
@@ -273,45 +298,52 @@
       <option name="project" value="LOCAL" />
       <updated>1531411813790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="directory resourses, file test.sql">
+      <created>1531423801506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531423801506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47502000" />
+    <option name="totallyTimeSpent" value="53364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3298969" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33431518" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3298969" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.33431518" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3298969" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1442953" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.18590604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1442953" />
+      <window_info anchor="right" id="Database" order="6" weight="0.16845638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3298969" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +355,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Film.java, Test.java, DB connect&#10;setFilmURL, setTitle, setDescription, setImageURL, setAgeRating" />
     <MESSAGE value="connect to data base" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect to data base" />
+    <MESSAGE value="directory resourses, file test.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="directory resourses, file test.sql" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Film.java">
@@ -422,17 +455,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/films">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="file://$PROJECT_DIR$/../ParsingURL/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <filtering enabled="true" />
+          <caret column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Film.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-408">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1343#1344#0" expanded="true" />
@@ -445,17 +478,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ParsingURL/src/main/resources/application.properties">
+    <entry file="das://31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/films.sql">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ParsingURL/src/resourses/test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31c0cfdf-618c-460e-a6fe-bf179c7ecace/schema/test/table/films">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <caret column="29" selection-end-column="29" />
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ParsingURL/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1713">
-          <caret line="133" column="73" selection-start-line="133" selection-start-column="73" selection-end-line="133" selection-end-column="73" />
+        <state relative-caret-position="319">
+          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
