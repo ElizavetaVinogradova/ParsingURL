@@ -2,7 +2,7 @@ public class Film {
     private int id; //auto_increment
     private String filmUrl;
     private String title;
-    private String fullDescription;
+    private String description;
     private String imageUrl;
     private String ageRating;
     private String actors;
@@ -35,12 +35,12 @@ public class Film {
         this.title = title;
     }
 
-    public String getFullDescription() {
-        return fullDescription;
+    public String getDescription() {
+        return description;
     }
 
-    public void setFullDescription(String fullDescription) {
-        this.fullDescription = fullDescription;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getImageUrl() {
@@ -97,7 +97,7 @@ public class Film {
                 "id=" + id +
                 ", filmUrl='" + filmUrl + '\'' +
                 ", title='" + title + '\'' +
-                ", fullDescription='" + fullDescription + '\'' +
+                ", description='" + description + '\'' +
                 ", imageUrl='" + imageUrl + '\'' +
                 ", ageRating='" + ageRating + '\'' +
                 ", actors=" + actors +
